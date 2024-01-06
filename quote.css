@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #262626 url(Images/Background.jpeg);
+  background-position-x: -375px;
+  background-position-y: -500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 83vh;
+}
+
+header {
+  box-shadow: 2px 2px 1px black;
+  border-radius: 5px;
+  background-color: #00000060;
+  color: antiquewhite;
+  margin: 0px 15%;
+  padding: 10px;
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+}
+
+.quote {
+  background-color: bisque;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+  margin: 5px;
+}
+
+q {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.2rem;
+  font: caption;
+  margin: 5px;
+}
+
+button {
+  background-color: black;
+  border-radius: 5px;
+  color: antiquewhite;
+  margin: 5px;
+  padding: 5px;
+}
+
+button:active {
+  background-color: black;
+  color: gold;
+}
+
+.accordion {
+  background-color: burlywood;
+  padding: 15px;
+  margin: 30px 0px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px black;
+  width: 85%;
+}
+
+.accordion__h3 {
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  display: block;
+  border-bottom: 2px solid;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.word {
+  margin: 5%;
+  line-height: 1.5rem;
+  width: 100%;
+  display: none;
+}
+
+.name:active {
+  font-size: 75%;
+  transition: 1s;
+}
+
+footer {
+  background-color: azure;
+  bottom: 0;
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+  position: sticky;
+  text-align: center;
+  width: 100%;
+}
+
+.author {
+  font-family: fantasy;
+  text-decoration: underline;
+}
